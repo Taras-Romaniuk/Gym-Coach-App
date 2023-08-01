@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Flutter/androidstudio/CoachApp/app/src/main/res/drawable-v24/note_frame.xml" value="0.2605" />
+        <entry key="..\:/Flutter/androidstudio/CoachApp/app/src/main/res/drawable/backwithborder.xml" value="0.2385" />
+        <entry key="..\:/Flutter/androidstudio/CoachApp/app/src/main/res/drawable/bordered_frame.xml" value="0.2405" />
+        <entry key="..\:/Flutter/androidstudio/CoachApp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2385" />
+        <entry key="..\:/Flutter/androidstudio/CoachApp/app/src/main/res/drawable/roundedbutton.xml" value="0.2385" />
+        <entry key="..\:/Flutter/androidstudio/CoachApp/app/src/main/res/drawable/underline.xml" value="0.2715" />
+        <entry key="..\:/Flutter/androidstudio/CoachApp/app/src/main/res/layout/activity_client.xml" value="0.27291666666666664" />
+        <entry key="..\:/Flutter/androidstudio/CoachApp/app/src/main/res/layout/activity_client_category.xml" value="0.27291666666666664" />
+        <entry key="..\:/Flutter/androidstudio/CoachApp/app/src/main/res/layout/activity_client_date.xml" value="0.19519927536231885" />
+        <entry key="..\:/Flutter/androidstudio/CoachApp/app/src/main/res/layout/activity_client_name.xml" value="0.19519927536231885" />
+        <entry key="..\:/Flutter/androidstudio/CoachApp/app/src/main/res/layout/activity_client_notes.xml" value="0.27291666666666664" />
+        <entry key="..\:/Flutter/androidstudio/CoachApp/app/src/main/res/layout/activity_client_price.xml" value="0.1956521739130435" />
+        <entry key="..\:/Flutter/androidstudio/CoachApp/app/src/main/res/layout/activity_client_time.xml" value="0.19519927536231885" />
+        <entry key="..\:/Flutter/androidstudio/CoachApp/app/src/main/res/layout/activity_diary_category.xml" value="0.27291666666666664" />
+        <entry key="..\:/Flutter/androidstudio/CoachApp/app/src/main/res/layout/activity_income_category.xml" value="0.27291666666666664" />
+        <entry key="..\:/Flutter/androidstudio/CoachApp/app/src/main/res/layout/activity_journal.xml" value="0.27291666666666664" />
+        <entry key="..\:/Flutter/androidstudio/CoachApp/app/src/main/res/layout/activity_main.xml" value="0.24909420289855072" />
+        <entry key="..\:/Flutter/androidstudio/CoachApp/app/src/main/res/layout/activity_main_first.xml" value="0.27291666666666664" />
+        <entry key="..\:/Flutter/androidstudio/CoachApp/app/src/main/res/layout/activity_new_client.xml" value="0.27291666666666664" />
+        <entry key="..\:/Flutter/androidstudio/CoachApp/app/src/main/res/layout/activity_new_income.xml" value="0.27291666666666664" />
+        <entry key="..\:/Flutter/androidstudio/CoachApp/app/src/main/res/layout/activity_new_note.xml" value="0.27291666666666664" />
+        <entry key="..\:/Flutter/androidstudio/CoachApp/app/src/main/res/layout/activity_schedule.xml" value="0.27291666666666664" />
+        <entry key="..\:/Flutter/androidstudio/CoachApp/app/src/main/res/layout/activity_statistics.xml" value="0.27291666666666664" />
+        <entry key="..\:/Flutter/androidstudio/CoachApp/app/src/main/res/layout/activity_view_diary.xml" value="0.27291666666666664" />
+        <entry key="..\:/Flutter/androidstudio/CoachApp/app/src/main/res/layout/bordered_frame.xml" value="0.27291666666666664" />
+        <entry key="..\:/Flutter/androidstudio/CoachApp/app/src/main/res/layout/popup_menu.xml" value="0.27291666666666664" />
+        <entry key="..\:/Flutter/androidstudio/CoachApp/app/src/main/res/menu/popup_menu.xml" value="0.27291666666666664" />
+        <entry key="..\:/Flutter/androidstudio/CoachApp/app/src/main/res/menu/popup_menu2.xml" value="0.27291666666666664" />
+        <entry key="..\:/Flutter/androidstudio/CoachApp/app/src/main/res/mipmap-anydpi-v26/coach_app_icon.xml" value="0.136" />
+        <entry key="..\:/Flutter/androidstudio/CoachApp/app/src/main/res/mipmap-anydpi-v26/coach_app_icon_round.xml" value="0.136" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NewIncomeActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <FrameLayout
+                android:id="@+id/frame1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="8dp"
+                android:background="@drawable/bordered_frame"
+                android:padding="10dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/select_client"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="6dp"
+                        android:text="@string/select_client_text"
+                        android:textSize="24sp" />
+
+                    <AutoCompleteTextView
+                        android:id="@+id/auto_select_client"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="6dp"
+                        android:background="@drawable/backwithborder"
+                        android:completionThreshold="1"
+                        android:hint="@string/enter_client_name_text"
+                        android:padding="6dp"
+                        android:textSize="24sp"
+                        tools:ignore="LabelFor" />
+
+                    <TextView
+                        android:id="@+id/error_select_client"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:textColor="#FF0000"
+                        android:textSize="20sp"
+                        android:visibility="gone"/>
+                </LinearLayout>
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/frame2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/frame1"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="8dp"
+                android:background="@drawable/bordered_frame"
+                android:padding="10dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/select_date"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="6dp"
+                        android:text="@string/select_date_text"
+                        android:textSize="24sp" />
+
+                    <CheckBox
+                        android:id="@+id/checkbox_date"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:checked="true"
+                        android:text="@string/current_date_text" />
+
+                    <DatePicker
+                        android:id="@+id/date_picker"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:datePickerMode="calendar"
+                        android:visibility="gone" />
+
+                    <TimePicker
+                        android:id="@+id/time_picker"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:timePickerMode="spinner"
+                        android:visibility="gone" />
+
+                </LinearLayout>
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/frame3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/frame2"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="8dp"
+                android:background="@drawable/bordered_frame"
+                android:padding="10dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="6dp"
+                        android:text="@string/income_text"
+                        android:textSize="24sp" />
+
+                    <EditText
+                        android:id="@+id/client_income"
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:autofillHints="Something"
+                        android:backgroundTint="#424242"
+                        android:gravity="center"
+                        android:hint="@string/client_price_hint"
+                        android:inputType="numberDecimal"
+                        android:textSize="24sp" />
+                </LinearLayout>
+            </FrameLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/frame3"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="40dp">
+
+                <com.sanojpunchihewa.glowbutton.GlowButton
+                    android:id="@+id/new_income_back_button"
+                    android:layout_width="@dimen/back_button_layout_width"
+                    android:layout_height="@dimen/back_button_layout_height"
+                    android:text="@string/back_button"
+                    android:textColor="@color/back_button_text_color"
+                    app:buttonColor="@color/back_button_button_color"
+                    app:cornerRadius="@dimen/back_button_corner_radius"
+                    app:glowColor="@color/back_button_glow_color"
+                    app:pressedGlowSize="@dimen/back_button_pressed_glow_size"
+                    app:unpressedGlowSize="@dimen/back_button_unpressed_glow_size" />
+
+                <com.sanojpunchihewa.glowbutton.GlowButton
+                    android:id="@+id/new_income_confirm_button"
+                    android:layout_width="@dimen/next_button_layout_width"
+                    android:layout_height="@dimen/next_button_layout_height"
+                    android:enabled="false"
+                    android:text="@string/confirm_button"
+                    android:textColor="@color/confirm_button_text_color"
+                    app:buttonColor="@color/confirm_button_button_color"
+                    app:cornerRadius="@dimen/next_button_corner_radius"
+                    app:glowColor="@color/confirm_button_glow_color"
+                    app:pressedGlowSize="@dimen/next_button_pressed_glow_size"
+                    app:unpressedGlowSize="@dimen/next_button_unpressed_glow_size" />
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

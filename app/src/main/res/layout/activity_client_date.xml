@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ClientDateActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <DatePicker
+            android:id="@+id/date_picker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:datePickerMode="spinner" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/date_picker"
+            android:layout_centerHorizontal="true"
+            android:text="@string/client_date_text"
+            android:textSize="26sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="40dp">
+
+            <com.sanojpunchihewa.glowbutton.GlowButton
+                android:id="@+id/client_date_back_button"
+                android:layout_width="@dimen/back_button_layout_width"
+                android:layout_height="@dimen/back_button_layout_height"
+                android:text="@string/back_button"
+                android:textColor="@color/back_button_text_color"
+                app:buttonColor="@color/back_button_button_color"
+                app:cornerRadius="@dimen/back_button_corner_radius"
+                app:glowColor="@color/back_button_glow_color"
+                app:pressedGlowSize="@dimen/back_button_pressed_glow_size"
+                app:unpressedGlowSize="@dimen/back_button_unpressed_glow_size" />
+
+            <com.sanojpunchihewa.glowbutton.GlowButton
+                android:id="@+id/client_date_next_button"
+                android:layout_width="@dimen/next_button_layout_width"
+                android:layout_height="@dimen/next_button_layout_height"
+                android:text="@string/next_button"
+                android:textColor="@color/next_button_text_color"
+                app:buttonColor="@color/next_button_button_color"
+                app:cornerRadius="@dimen/next_button_corner_radius"
+                app:glowColor="@color/next_button_glow_color"
+                app:pressedGlowSize="@dimen/next_button_pressed_glow_size"
+                app:unpressedGlowSize="@dimen/next_button_unpressed_glow_size" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
